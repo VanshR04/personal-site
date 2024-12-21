@@ -1,0 +1,162 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --accent-color: #1e90ff;
+    --toggle-bg: #eeeeee;
+    --toggle-color: #000000;
+  }
+  
+  [data-theme="dark"] {
+    --bg-color: #000000;
+    --text-color: #ffffff;
+    --accent-color: #ff6347;
+    --toggle-bg: #333333;
+    --toggle-color: #ffffff;
+  }
+  .contact-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #222; /* Slightly darker background */
+    border-radius: 12px; /* Rounded corners */
+    padding: 30px; /* Inner spacing */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4); /* Enhanced shadow */
+    border: 1px solid #444; /* Add subtle border for a clean look */
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Form title */
+  .contact-form-title {
+    color: #ffffff; /* White text */
+    font-family: "Arial", sans-serif;
+    font-size: 1.8rem; /* Larger font for emphasis */
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold; /* Make the title stand out */
+    text-transform: uppercase; /* Convert text to uppercase */
+  }
+  
+  /* Success or error message */
+  .contact-form-message {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #ffffff;
+    background-color: rgba(0, 128, 0, 0.2); /* Subtle green background for success */
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* Labels */
+  .contact-form-label {
+    color: #ffffff;
+    font-size: 1rem; /* Increase label size */
+    font-family: "Arial", sans-serif;
+    margin-bottom: 8px; /* Space between label and input */
+    display: block; /* Ensure labels appear above inputs */
+    font-weight: bold; /* Make labels stand out */
+  }
+  
+  /* Input fields */
+  .contact-form-input,
+  .contact-form-textarea {
+    width: 95%;
+    padding: 12px; /* Add more padding for a spacious feel */
+    margin-bottom: 20px; /* Space below inputs */
+    border: 1px solid #555; /* Slightly lighter border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #333; /* Input background */
+    color: #ffffff; /* White text */
+    font-family: "Arial", sans-serif;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth border and shadow change */
+  }
+  
+  /* Focus effect on inputs */
+  .contact-form-input:focus,
+  .contact-form-textarea:focus {
+    outline: none; /* Remove default outline */
+    border-color: #0078ff; /* Highlight border */
+    box-shadow: 0px 0px 8px rgba(0, 120, 255, 0.8); /* Add glowing effect */
+  }
+  
+  /* Textarea */
+  .contact-form-textarea {
+    height: 120px; /* Increased height for message box */
+    resize: none; /* Disable resize */
+  }
+  
+  /* Submit button */
+  .contact-form-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0078ff; /* Button color */
+    color: white;
+    font-size: 1.1rem; /* Larger font */
+    font-family: "Arial", sans-serif;
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+  }
+  
+  /* Hover effect on button */
+  .contact-form-button:hover {
+    background-color: #0056b3; /* Darker blue */
+    transform: scale(1.05); /* Slightly enlarge */
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .contact-form-container {
+      padding: 20px;
+    }
+  
+    .contact-form-title {
+      font-size: 1.5rem; /* Slightly smaller font for small screens */
+    }
+  
+    .contact-form-input,
+    .contact-form-textarea {
+      font-size: 0.9rem; /* Adjust input text size */
+    }
+  
+    .contact-form-button {
+      font-size: 1rem; /* Adjust button size */
+    }
+  }
+
+  
+.contact{
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+
+  /* Intro screen styling */
+.intro-screen-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+    background-color: var(--bg-color); /* Adjust background as needed */
+    height: auto; /* Let the height be dynamic based on content */
+    margin: 0; /* Remove any margins */
+    padding: 10px 0; /* Reduce top and bottom padding */
+  }
+  
+  /* Intro text styling */
+  .intro-text-c h1 {
+    font-size: 2rem; /* Smaller font size */
+    color: var(--text-color); /* White text */
+    margin: 5px 10; /* Minimal top and bottom margins */
+    text-align: center; /* Center-align text */
+    font-family: 'Arial', sans-serif; /* Font styling */
+    font-weight: normal; /* Optional: Adjust font weight */
+    font-weight: bold;
+  }
+  
+  

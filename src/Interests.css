@@ -1,0 +1,60 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --accent-color: #1e90ff;
+    --toggle-bg: #eeeeee;
+    --toggle-color: #000000;
+  }
+  
+  [data-theme="dark"] {
+    --bg-color: #000000;
+    --text-color: #ffffff;
+    --accent-color: #ff6347;
+    --toggle-bg: #333333;
+    --toggle-color: #ffffff;
+  }
+
+.intro-screen-i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black; /* Adjust background as needed */
+    height: auto; /* Let the height be dynamic based on content */
+    margin: 0; /* Remove any margins */
+    padding: 10px 0; /* Reduce top and bottom padding */
+    color: white;
+    text-align: center;
+  }
+
+  .interest {
+    background-color: rgb(36, 54, 65);
+    color: white; /* White text for high contrast */
+    text-align: center; /* Center content */
+    padding: 40px; /* Generous padding for spacing */
+    margin: 20px auto; /* Space around the section */
+    border-radius: 15px; /* Smooth rounded corners */
+    max-width: 800px; /* Limit width */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4); /* Bold shadow for depth */
+    font-family: 'Poppins', sans-serif; /* Modern font */
+    transition: transform 0.4s ease, box-shadow 0.4s ease; /* Smooth hover effects */
+}
+
+.interest:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.5); /* Increase shadow intensity */
+}
+
+.interest h2 {
+    font-size: 2.5rem; /* Bold, large heading */
+    color: #ffdd57; /* Gold color for emphasis */
+    margin-bottom: 20px; /* Space below the heading */
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Subtle text shadow */
+}
+
+.interest p {
+    font-size: 1.2rem; /* Slightly larger text */
+    line-height: 1.8; /* Better readability */
+    margin: 0 auto 30px auto; /* Center paragraph with spacing below */
+    max-width: 700px; /* Limit paragraph width */
+    color: #f5f5f5; /* Softer white for text contrast */
+}

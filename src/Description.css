@@ -1,0 +1,103 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --accent-color: #1e90ff;
+    --toggle-bg: #eeeeee;
+    --toggle-color: #000000;
+  }
+  
+  [data-theme="dark"] {
+    --bg-color: #000000;
+    --text-color: #ffffff;
+    --accent-color: #ff6347;
+    --toggle-bg: #333333;
+    --toggle-color: #ffffff;
+  }
+  
+  .description{
+    color: white;
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    flex: 1;
+}
+
+.desc {
+    margin: 0 auto; /* Center the section horizontally */
+    margin-bottom: 40px; /* Space between description and projects */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 5%;
+    gap: 40px;
+    height: fit-content;
+    background-color: rgb(36, 54, 65);
+    border-radius: 20px;
+    max-width: 900px;
+    flex-wrap: nowrap;
+}
+
+.all, .body {
+    overflow: visible; /* Ensure content isn't clipped */
+}
+
+
+.all{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+    padding-top: 40px;
+}
+
+.project-section-head{
+    color: white;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: fit-content;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+  
+
+.img img{
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0.8;
+}
+
+@media (max-width: 800px) {
+    .desc {
+      flex-direction: column; /* Change layout to column on smaller screens */
+      padding: 10px;
+      text-align: center; /* Center-align the text */
+      gap: 20px; /* Reduce gap between image and text */
+    }
+  
+    .img img {
+      max-width: 50%; /* Allow the image to take full width */
+    }
+  
+    .description {
+      font-size: 1rem; /* Adjust font size for smaller screens */
+      padding: 0 10px; /* Add some padding around the text */
+    }
+  }
