@@ -10,7 +10,6 @@ function Top({ toggleTheme }) {
             <div className="Top-name">
                 Vansh Rastogi
                 <div className='occ'
-                contentEditable={true}
                 suppressContentEditableWarning={true}>
                     MACHINE-LEARNING ENTHUSIAST
                 </div>
