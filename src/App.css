@@ -70,8 +70,14 @@ html{
 
 /* Loading screen styling (spinner container) */
 .loading-screen {
-  bottom: 10%;
+  bottom: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 500px){
+  .intro-text h1{
+    font-size: 4rem;
+  }
 }

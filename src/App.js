@@ -52,9 +52,16 @@ function App() {
         >
           <div className="intro-text">
             <TypeAnimation
-              sequence={['<Vansh Rastogi/>', 3000]}
+              sequence={['<Vansh', 3000]}
               wrapper="h1"
-              speed={50}
+              speed={30}
+              cursor = {false}
+              repeat={0}
+            />
+            <TypeAnimation
+              sequence={['Rastogi/>', 3000]}
+              wrapper="h1"
+              speed={30}
               repeat={0}
             />
             {showLoading && (
