@@ -9,7 +9,9 @@ function Top({ toggleTheme }) {
         <div className="Top-main">
             <div className="Top-name">
                 Vansh Rastogi
-                <div className='occ'>
+                <div className='occ'
+                contentEditable={true}
+                suppressContentEditableWarning={true}>
                     MACHINE-LEARNING ENTHUSIAST
                 </div>
             </div>
@@ -34,9 +36,9 @@ function Top({ toggleTheme }) {
                         <FontAwesomeIcon icon={faInstagram} />
                     </a>
                 </div>
-                <button className="theme-toggle-button" onClick={toggleTheme}>
-                    🌙
-                </button>
+                {/* <button className="theme-toggle-button" onClick={toggleTheme}>
+          🌙
+        </button> */}
             </div>
         </div>
     );

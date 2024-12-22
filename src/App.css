@@ -56,6 +56,7 @@ html{
   z-index: 2;
   background-color: black; /* Ensure the intro screen has a black background */
   color: white;
+  padding: 20px;
   text-align: center;
 }
 

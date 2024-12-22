@@ -40,12 +40,14 @@
     color: white;
     display: flex;
     align-items: center;
+    max-width: 100%;
 }
 
 .icons {
     display: flex;
     justify-content: space-between;
-    margin-right: 15%;
+    align-items: flex-end;
+    margin-right: 5%;
     width: 25%;
     height: 100%;
     align-items: center;
@@ -76,8 +78,28 @@
     color: var(--toggle-bg);
     border: none;
     border-radius: 50px;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     cursor: pointer;
     padding: 8px 15px;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
+
+
+@media (max-width: 630px) {
+    .Top-name span {
+        font-size: 1.5rem; /* Reduce font size for "Vansh Rastogi" */
+    }
+
+    .occ {
+        font-size: 0.8rem; /* Adjust subtitle size */
+    }
+
+    .Top-main{
+        justify-content: flex-start;
+        position: relative;
+    }
+
+    .icons {
+        gap: 5px; /* Reduce spacing between icons */
+    }
+}
