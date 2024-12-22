@@ -17,13 +17,13 @@ function Contact() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+  
     emailjs
       .sendForm(
         "service_5g5x7ju", // Replace with your EmailJS Service ID
         "template_obyfeee", // Replace with your EmailJS Template ID
-        form.current,// Replace with your EmailJS Public Key
-        'meh3UygFlmxqthlLZ'
+        form.current,
+        "meh3UygFlmxqthlLZ" // Replace with your EmailJS Public Key
       )
       .then(
         (result) => {
@@ -31,12 +31,12 @@ function Contact() {
           form.current.reset(); // Clear the form
         },
         (error) => {
-            console.log(error);
-            
+          console.log(error);
           setMessage("Failed to send the message. Please try again.");
         }
       );
   };
+  
 
   return (
     <>
@@ -80,6 +80,15 @@ function Contact() {
           className="contact-form-input"
           required
         />
+
+<label htmlFor="user_phone" className="contact-form-label">Phone Number</label>
+  <input
+    type="tel"
+    name="user_phone"
+    id="user_phone"
+    className="contact-form-input"
+    required
+  />
 
         <label htmlFor="message" className="contact-form-label">Message</label>
         <textarea
