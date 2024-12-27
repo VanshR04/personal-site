@@ -28,12 +28,13 @@ function Description() {
         name: 'Doubtnet',
         description: 'A full stack web application developed using MERN stack. Allows users to Signup/Login, add and delete doubts. Users can eve reply to other users doubts',
         link: 'https://doubtnet.onrender.com/'
+    },
+    {
+        image : require('./bg.jpg'),
+        name : 'Flight Tracker',
+        description: 'A Flight Tracker application that allows users to track flights in real time using the flight number. Used AviationStack API for this build.',
+        link : 'https://live-flight-status.onrender.com'
     }
-    // }, {
-    //     name: 'To-Do React App',
-    //     description: 'A simple rect app that allows users to create a To-Do list. Uses the advantage of the browser local storage. Primarily developed as a chrome extension.',
-    //     link: 'https://github.com/VanshR04/Todo-React-App'
-    // }
     ]
 
     return (<>
