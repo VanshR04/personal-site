@@ -17,23 +17,27 @@ function Description() {
         image : require('./house.jpg'),
         name: 'House-Predictor-Model',
         description: 'A Machine Learning model to predict house prices of a few US cities. Uses Linear regression with self-made functions',
-        link: 'https://github.com/VanshR04/ML-house-prediction-Regression-Sample'
+        link: 'https://github.com/VanshR04/ML-house-prediction-Regression-Sample',
+        web : null
     },
     {   image : require('./meme.jpg'),
         name: 'React Meme-App',
         description: 'Creates memes with random generated images using an externam API and adding own text on top of the image',
-        link: 'https://vansh-meme-app.onrender.com/'
+        web: 'https://vansh-meme-app.onrender.com/',
+        link : 'https://github.com/VanshR04/Meme-app'
     }, {
         image : require('./doubtnet.jpg'),
         name: 'Doubtnet',
         description: 'A full stack web application developed using MERN stack. Allows users to Signup/Login, add and delete doubts. Users can eve reply to other users doubts',
-        link: 'https://doubtnet.onrender.com/'
+        web: 'https://doubtnet.onrender.com/',
+        link : 'https://github.com/VanshR04/doubtnet-client'
     },
     {
         image : require('./bg.jpg'),
         name : 'Flight Tracker',
         description: 'A Flight Tracker application that allows users to track flights in real time using the flight number. Used AviationStack API for this build.',
-        link : 'https://live-flight-status.onrender.com'
+        web : 'https://live-flight-status.onrender.com',
+        link : 'https://github.com/VanshR04/live-flight-status'
     }
     ]
 
