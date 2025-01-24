@@ -5,6 +5,7 @@ import img from './img-description.jpg'
 import Projects from './Projects';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
+import vansh from './Vansh.jpg'
 
 function Description() {
 
@@ -45,7 +46,7 @@ function Description() {
         <div className='all'>
             <div className='desc'>
             <div className='img'>
-                    <img src={img} alt='Vansh Hackathon'></img>
+                    <img src={vansh} alt='Vansh Hackathon'></img>
                 </div>
                 <div className='description'>
                     I am Vansh Rastogi, a 3rd-year Computer Science student at the <strong>University of Manitoba</strong>.
