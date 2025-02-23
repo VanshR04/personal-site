@@ -39,7 +39,14 @@ function Description() {
         description: 'A Flight Tracker application that allows users to track flights in real time using the flight number. Used AviationStack API for this build.',
         web : 'https://live-flight-status.onrender.com',
         link : 'https://github.com/VanshR04/live-flight-status'
-    }
+    },
+    {
+      image : require('./Spaces.png'),
+      name : 'U of M Spaces',
+      description: 'U of M Spaces is a smart, interactive platform designed to help students at the University of Manitoba easily discover study spaces, amenities, and key campus locations. Our goal is to enhance student experience by providing real-time availability, seamless navigation, and personalized recommendations.',
+      web : null,
+      link : 'https://github.com/VanshR04/UofM_Spaces'
+  }
     ]
 
     return (<>
