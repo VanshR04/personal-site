@@ -60,9 +60,21 @@
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
+
+
+
 .icon a {
     color: var(--text-color);
     transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.resume a {
+  color: white;
+  text-decoration: none;
+}
+
+.resume a:hover {
+  color: grey;
 }
 
 .icon:hover {

@@ -10,7 +10,7 @@ function Top({ toggleTheme }) {
             <div className="Top-name">
                 Vansh Rastogi
                 <div className='occ'
-                suppressContentEditableWarning={true}>
+                    suppressContentEditableWarning={true}>
                     MACHINE-LEARNING ENTHUSIAST
                 </div>
             </div>
@@ -33,6 +33,11 @@ function Top({ toggleTheme }) {
                 <div className="icon">
                     <a href='https://www.instagram.com/vansh_r04/'>
                         <FontAwesomeIcon icon={faInstagram} />
+                    </a>
+                </div>
+                <div className="resume">
+                    <a href="/Vansh_Resume.pdf" download="Vansh_Rastogi_Resume" class="btn">
+                        Resume
                     </a>
                 </div>
                 {/* <button className="theme-toggle-button" onClick={toggleTheme}>
